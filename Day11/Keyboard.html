@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone Keyboard</title>
+    <style>
+    
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .keyboard {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-gap: 5px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .key {
+            background-color: #ddd;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .key:active {
+            background-color: #bbb;
+        }
+        .space {
+            grid-column: span 5;
+        }
+        .enter {
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="keyboard">
+        <div class="key">Q</div>
+        <div class="key">W</div>
+        <div class="key">E</div>
+        <div class="key">R</div>
+        <div class="key">T</div>
+        <div class="key">Y</div>
+        <div class="key">U</div>
+        <div class="key">I</div>
+        <div class="key">O</div>
+        <div class="key">P</div>
+        <div class="key">A</div>
+        <div class="key">S</div>
+        <div class="key">D</div>
+        <div class="key">F</div>
+        <div class="key">G</div>
+        <div class="key">H</div>
+        <div class="key">J</div>
+        <div class="key">K</div>
+        <div class="key">L</div>
+        <div class="key">?</div>
+        <div class="key">*</div>
+        <div class="key">Z</div>
+        <div class="key">X</div>
+        <div class="key">C</div>
+        <div class="key">V</div>
+        <div class="key">B</div>
+        <div class="key">N</div>
+        <div class="key">M</div>
+        <div class="key enter">Enter</div>
+        <div class="key">/</div>
+        <div class="key">.</div>
+        <div class="key space">Space</div>
+        <div class="key">,</div>
+        <div class="key">()</div>
+        <div class="key">@</div>
+    </div>
+</body>
+</html>
